@@ -50,6 +50,7 @@
       {"action": "route", "source_ip_cidr": "192.168.1.55/32", "outbound": "🎯 全球直连"},
       {"action": "route", "inbound": "socks-in", "outbound": "🚀 默认代理"},
       {"action": "route", "port": 22, "outbound": "🎯 全球直连"},
+      {"action": "route", "protocol": "icmp", "outbound": "🎯 全球直连"}
       {"clash_mode": "direct", "outbound": "🎯 全球直连"},
       {"clash_mode": "global", "outbound": "GLOBAL"},
       {"rule_set": "geosite-ai", "outbound": "💬 AI"},
